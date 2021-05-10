@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title> </title>
+	<link rel="stylesheet" href="form.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href= "https://fonts.googleapis.com/css?family=Josefin+sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+		<div class ="logo">
+			<h1><img src="logo.png" width="250px" height="120px"></h1></div>
+		<div class = "menu">
+			<ul> 
+				<li><a href="home.html">Home</a></li>
+				<li><a href="signup.html">New Register</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="logout.html">Log out</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<form action="save_form.php" method="post">         <!-- ///////////////////////////////////////////// -->
+	<main>
+	
+			<div class="wrapper">
+    <div class="title">
+      BOOK YOUR TICKET
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>Name of Traveller</label>
+          <input type="text" class="input" name="tname">
+       </div>  
+        <div class="inputfield">
+          <label>Age</label>
+          <input type="number" class="input" name="age">
+       </div>  
+       <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select name="sex">
+              <option>Select</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+       </div> 
+       <div class="inputfield">
+          <label>Aadhar Number</label>
+          <input type="number" class="input" name="aadhar">
+       </div>  
+       <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="number" class="input" name="pno">
+       </div> 
+       <div class="inputfield">
+          <label>Emergency Number</label>
+          <input type="number" class="input" name="emphno">
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="email" class="input" name="mail">
+       </div> 
+
+        <div class="inputfield">
+          <label>no.of Tickets (Max 10 allowed)</label>
+          <input type="number" class="input" name="ticket">
+       </div> 
+       
+       <div class= "inputfield">
+        <label>Date of travel (date):</label>
+        <input type="date"  name="traveldate">
+       </div>
+
+       <div class="inputfield">
+          <label>Time of travel</label>
+          <div class="custom_select">
+            <select name="traveltime">
+              <option>select</option>
+              <option>8.30 AM</option>
+              <option>10.30 AM</option>
+              <option>1 PM</option>
+              <option>3.45 PM</option>
+              <option>5.15 PM</option>
+              <option>7 PM</option>
+              <option>9 PM</option>
+              <option>12.45 AM</option>
+            </select>
+          </div>
+       </div> 
+
+
+       <div class="inputfield">
+          <label>TYPE OF BUS</label>
+          <div class="custom_select">
+            <select name="bustype">
+              <option>select</option>
+              <option>AC</option>
+              <option>NON-AC</option>
+              <option>AC SLEEPER</option>
+              <option>NON-AC SLEEPER</option>
+              <option>AC SEMI-SLEEPER</option>
+              <option>NON-AC SEMI-SLEEPER</option>
+              <option>SUPER FAST</option>
+              <option>LUXURY</option>
+            </select>
+          </div>
+       </div> 
+       
+       <div class="inputfield">
+          <label>Pick up</label>
+          <div class="custom_select">
+            <select name="pickup">
+              <option>select</option>
+              <option>VIJAYAWADA</option>
+              <option>AMARAVATHI</option>
+              <option>GUNTUR</option>
+              <option>VISAKAPATNAM</option>
+              <option>KARNOOL</option>
+              <option>PARAKSAM</option>
+              <option>HYDERBAD</option>
+              <option>NELLORE</option>
+              <option>KADAPA</option>
+              <option>ELURU</option>
+            </select>
+          </div>
+       </div> 
+       <div class="inputfield">
+          <label>Destination</label>
+          <div class="custom_select">
+            <select name="destination">
+              <option>select</option>
+              <option>VIJAYAWADA</option>
+              <option>AMARAVATHI</option>
+              <option>GUNTUR</option>
+              <option>VISAKAPATNAM</option>
+              <option>KARNOOL</option>
+              <option>PARAKSAM</option>
+              <option>HYDERBAD</option>
+              <option>NELLORE</option>
+              <option>KADAPA</option>
+              <option>ELURU</option>
+            </select>
+          </div>
+       </div> 
+      <div class="inputfield">
+          <label>Any Amenities</label>
+          <textarea class="textarea" name="extra"></textarea>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn" name="save">
+      </div>
+    </div>
+</div>	
+
+	</main>
+	</form>
+	<footer>
+		<div class="main-content">
+			
+
+			<div class="left box">
+				<h2>About us</h2>
+				<div class="content">
+					<p></p>
+					<div class="social">
+						<a href="#"><span class="fab fa-facebook-f"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-instagram"></span></a>
+						<a href="#"><span class="fab fa-youtube"></span></a>
+					</div>
+				</div>
+			</div>
+		
+			<div class="center box">
+				<h2>Address</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker-alt"></span>
+						<span class="text">Amaravati, Andhra Pradesh</span>
+					</div>
+					<div class="phone">
+						<span class="fas fa-phone-alt"></span>
+						<span class="text">+91-1111111111</span>
+					</div>
+					<div class="email">
+						<span class="fas fa-envelope"></span>
+						<span class="text">TravelManagement@gmail.com</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

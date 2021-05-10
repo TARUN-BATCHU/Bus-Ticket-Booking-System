@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Signup</title>
+		<link rel="stylesheet" href="signup.css">
+
+
+<!-- 	 <script>
+		function pass()
+				{
+					var a =f.paswrd.value;
+					var b =f.repaswrd.value;
+					if(a != b)
+						{
+						     alert("PASSWORDS ARE NOT MATCHED");
+						}
+					else{
+						    alert("PASSWORDS MATCHED");
+					
+				         }
+				}
+	</script> -->
+	
+	</head>
+	<body>
+		<div class="center">
+			<h1>Signup</h1>
+			<form method="post" action="save_signup.php">
+				<div class="txt_field">
+					<input type="text" required name="fullname">
+					<span></span>
+					<label>Full Name</label>
+				</div>
+				<div class="txt_field">
+					<input type="number" min="1" max="99" required name="age">
+					<span></span>
+					<label>age</label>
+				</div>
+				<div class="txt_field">
+					<input type="email" required name="email">
+					<span></span>
+					<label>Email</label>
+				</div>
+				<div class="txt_field">
+					<input type="password" required name="paswrd">
+					<span></span>
+					<label>Password</label>
+				</div>
+				<div class="txt_field">
+					<input type="password" required name="repaswrd">
+					<span></span>
+					<label>Confirm Password</label>
+				</div>
+				<div class="txt_field">
+					<input type="tel" required name="phno">
+					<span></span>
+					<label>Phone Number</label>
+				</div>
+				<div class="txt_field">
+					<input type="text" required name="dob">
+					<span></span>
+					<label>DOB (YYYY/MM/DD)</label>
+				</div>
+				<input type="submit" value="Signup" name="save">
+			</form>
+		</div>
+
+	</body>
+</html>

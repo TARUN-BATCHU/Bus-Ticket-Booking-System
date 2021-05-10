@@ -1,0 +1,68 @@
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Search</title>
+</head>
+<style type="text/css">
+	*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+main section
+{
+width:100%;
+height:75vh;
+align-items: center;
+text-align: center;
+justify-content: center;
+padding-top: 200px;
+padding-right: 100px;
+}
+
+section button
+{
+padding : 12px 30px;
+border-radius: 4px;
+outline: none;
+text-transform: uppercase;
+font-size : 13px;
+font-weight : 500;
+text-decoration: none;
+letter-spacing: 1px;
+border: none;
+}
+
+section .login
+{
+margin-top: 20px;
+margin-left: 60px;
+background : #212F3D;
+color : white;
+font-weight: bold;
+}
+
+section .login:hover
+{
+background-color: #FD0000;
+}
+</style>
+
+<body>
+	<main>
+		<section>
+			<img src="search.svg" width="400px" height="400px"><br>
+			<button onClick="location.href='useradmin.html'" class="login"> <== BACK </button>
+			<button onClick="location.href='view.php'" class="login"> VIEW TICKET BOOKED RECORDS</button>
+			<button onClick="location.href='viewdata.php'" class="login"> VIEW USER DATA</button>
+			<button onClick="location.href='signup.html'" class="login"> REGISTER NEW TRAVELLER</button>
+			<button onClick="location.href='logout.html'" class="login"> LOGOUT </button>
+		</section>
+
+	</main>
+
+</body>
+</html>

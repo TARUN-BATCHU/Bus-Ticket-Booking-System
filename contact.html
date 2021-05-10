@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+	<header>
+		<nav>
+		<div class ="logo">
+			<h1><img src="logo.png" width="250px" height="120px"></h1></div>
+		<div class = "menu">
+			<ul> 
+				<li><a href="home.html">Home</a></li>
+				<li><a href="signup.html">New User</a></li>
+				<li><a href="aboutus.html">About</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="logout.html">Log out</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<form   action="savecontact.php"  method="post">
+				<input type="text" class="field" placeholder="Your FullName" name="name">
+				<input type="email" class="field" placeholder="Your Email" name="gmail">
+				<input type="text" class="field" placeholder="Phone Number" name="num">
+				<textarea placeholder="Message" class="field" name="message"></textarea>
+				<!-- <button class="btn">Send</button> -->
+
+
+               <button><input type="submit" value="Send" class="btn" name="send"></button>
+      
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
